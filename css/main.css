@@ -5287,3 +5287,28 @@ a.credit {
 /* Common Style */
 .section {
   padding-bottom: 0; }
+
+
+/* Projects carousel */
+.flickity-slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-cell {
+  margin-left: 10px;
+}
+
+.carousel-cell .project-image-container {
+  background: #bababa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 150px;
+  margin-bottom: 30px;
+}
+
+.bg-black {
+  background-color: black !important;
+}
