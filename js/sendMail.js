@@ -2,7 +2,7 @@
 
 // submit form
 let apiKey = "2b68e828-7f3c-428b-a2a0-6b0858daeb11";
-let ourEmail = "pandeysp@miamioh.edu";
+let ourEmail = "surya.pandeya47@gmail.com";
 let baseUrl = "https://api.elasticemail.com/v2/email/send";
 
 $("#name, #email, #message, #subject").on("change", function () {
@@ -42,7 +42,7 @@ $('#contactForm').submit(function (e) {
         $.ajax({
             method: 'GET',
             url: baseUrl + "?apikey=" + apiKey + "&subject=" + subject.value +
-                "&from=" + ourEmail + "&to=pandeysp@miamioh.edu" +
+                "&from=" + ourEmail + "&to=surya.pandeya47@gmail.com" +
                 "&bodyHtml=" + "<strong>Name</strong>: "
                 + name.value + "<br/><strong>Email: </strong>" + email.value +
                 "<br/><strong>Message: </strong>" + message.value
